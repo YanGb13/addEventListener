@@ -1,0 +1,70 @@
+body {
+  background: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.card {
+  background: #e0e0e0;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px #bebebe,
+              -10px -10px 30px #ffffff;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.info {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+button {
+  background: #e0e0e0;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px #bebebe,
+              -5px -5px 15px #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button.pulso {
+  animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+ul {
+  list-style-type: square;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 40px;
+  color: #444;
+}
+
+#tipoTexto {
+  margin-top: 25px;
+  font-weight: bold;
+  color: #222;
+  min-height: 1.5em;
+}
